@@ -5,7 +5,7 @@ use macroquad::prelude::*;
 async fn main() {
     let mut boundless_demo = boundless_demo::BoundlessDemo::new();
     loop {
-        clear_background(WHITE);
+        clear_background(YELLOW);
         boundless_demo.update(get_frame_time());
         next_frame().await;
     }
