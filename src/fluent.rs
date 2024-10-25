@@ -22,6 +22,7 @@ where
     }
 }
 
+#[derive(Clone)]
 pub struct Fluent<T>
 where
     T: Interpolatable + Clone,
